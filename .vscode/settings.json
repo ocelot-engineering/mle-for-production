@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [120],
+    "editor.tabSize": 4,
+
+    "diffEditor.ignoreTrimWhitespace": true,
+
+    "prettier.printWidth": 120,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+
+    "[json][yaml]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    }
+}
